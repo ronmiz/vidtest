@@ -1,1 +1,7 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: SFUIText-Regular;
+    src: url(assets/font/sf-ui-text-2-cufonfonts/SFUIText-Regular.ttf) format("truetype");
+  }
+  body{
+    background-color: rgb(231, 231, 231);
+}

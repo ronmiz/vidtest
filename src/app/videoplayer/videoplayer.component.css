@@ -1,0 +1,109 @@
+.main-container{
+    background: #FFFFFF;
+    border: 1px solid #D7DADE;
+    border-radius: 5px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 824px;
+    height: 521px;
+    padding: 0;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.video-view{
+    width: 304px;
+    height: 204px;
+    margin-bottom: 15px;
+    margin-top: 14px;
+    background: #000000;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.30);
+    border-radius: 4px;
+}
+.video-title{
+    font-family: SFUIText-Regular;
+    font-size: 26px;
+    color: #333333;
+    line-height: 28px;
+    width: 468px;
+    height: 28px;
+    margin-top: 50px;
+}
+.text-data{
+    width: 700px;
+    height: 75px;
+    background: #F7F7F7;
+    border-radius: 20px;
+    padding: 12px;
+    overflow-y: scroll;
+}
+p{
+    font-family: SFUIText-Regular;
+    font-size: 15px;
+    color: #333333;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+}
+.cust-color{
+    color:  #EE6EFF;
+}
+.rep-color{
+    color: #00A7D1;
+}
+
+.fix{
+    display: flex;
+    position:fixed;
+    bottom:20px;
+    align-items: center;
+}
+.blue-line{
+    position:fixed;
+    bottom:0px;
+    width: 100%;
+    height: 5px;
+    background-color:rgba(0,167,209,1);
+}
+.small-title{
+    font-family: SFUIText-Regular;
+    font-size: 12px;
+    color: #333333;
+    line-height: 16px;
+    margin-left: 5px;
+    margin-bottom: 4px;
+}
+.intro-title{
+    font-family: SFUIText-Regular;
+    font-size: 15px;
+    color: #333333;
+    line-height: 20px;
+    background: #F7F7F7;
+    border-radius: 100px;
+    padding: 10px;
+    margin-bottom: 4px;
+    width: 155px;
+}
+.text-area{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 720px;
+}
+.circle {
+    background: rgba(238,110,255,0.10);
+    border: 1px solid #EE6EFF;
+    border-radius: 100px;
+    width: 28px;
+    height: 28px;
+    margin-right: 5px;
+}
+.message-area{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}

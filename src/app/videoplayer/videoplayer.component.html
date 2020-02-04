@@ -1,0 +1,33 @@
+<div class="main-container">
+    <div class="video-title">Moment from meeting with Two Pillars</div>
+    <div>
+        <video class="video-view" controls (timeupdate)="setCurrentTime($event)" #videoPlayer>
+            <source src="{{videoSource}}" type="video/mp4" />
+            Browser not supported
+        </video>
+    </div>
+    <div class="message-area"> 
+        <div class="circle"></div>
+    <div class="text-area">
+        <div>
+            <div class="small-title">
+                Jana Ally
+            </div>
+                <div class="intro-title">
+                Right about or video
+            </div>
+            <div class="text-data">
+                <div *ngFor="let item of textSource">
+                    <p [ngClass]="{'cust-color': item.speaker == 'Cust', 'rep-color':item.speaker == 'Rep' }">{{item.speaker}} - "{{item.snippet}}"</p>
+                </div>
+            </div>
+        </div>  
+    </div>            
+    
+    </div>
+    <div class="fix">
+        <img src="./assets/chorus-logo.svg" >
+    </div>
+    <div class="blue-line"></div>
+</div>
+
