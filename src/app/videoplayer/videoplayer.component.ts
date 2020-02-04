@@ -8,8 +8,6 @@ import { VideoDataService } from '../service/video-data.service';
 })
 export class VideoPlayerComponent implements OnInit {
   videoSource:string;
-  currentTime:number;
-  videoPlayer: HTMLVideoElement;
   videoId:string = '4d79041e-f25f-421d-9e5f-3462459b9934'
   textSource:Object;
 
@@ -22,9 +20,6 @@ export class VideoPlayerComponent implements OnInit {
     })
 
   this.videoSource = `https://static.chorus.ai/api/${this.videoId}.mp4`
-  }
-  setCurrentTime(data){
-    this.currentTime = data.target.currentTime;
   }
   sortByKey(array, key){
     return array.sort(function(a, b) {

@@ -1,7 +1,7 @@
 <div class="main-container">
     <div class="video-title">Moment from meeting with Two Pillars</div>
     <div>
-        <video class="video-view" controls (timeupdate)="setCurrentTime($event)" #videoPlayer>
+        <video class="video-view" controls >
             <source src="{{videoSource}}" type="video/mp4" />
             Browser not supported
         </video>
@@ -22,8 +22,7 @@
                 </div>
             </div>
         </div>  
-    </div>            
-    
+    </div>             
     </div>
     <div class="fix">
         <img src="./assets/chorus-logo.svg" >
